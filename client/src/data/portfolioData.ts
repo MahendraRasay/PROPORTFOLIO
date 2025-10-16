@@ -1,0 +1,132 @@
+import { Skill, Project, Experience } from "@shared/schema";
+
+export const skills: Skill[] = [
+  // Frontend
+  { id: "1", name: "React", category: "frontend", icon: "react", proficiency: 95 },
+  { id: "2", name: "TypeScript", category: "frontend", icon: "code", proficiency: 90 },
+  { id: "3", name: "JavaScript", category: "frontend", icon: "braces", proficiency: 95 },
+  { id: "4", name: "HTML/CSS", category: "frontend", icon: "palette", proficiency: 90 },
+  { id: "5", name: "Tailwind CSS", category: "frontend", icon: "wind", proficiency: 92 },
+  { id: "6", name: "Next.js", category: "frontend", icon: "triangle", proficiency: 88 },
+  { id: "7", name: "Vue.js", category: "frontend", icon: "component", proficiency: 80 },
+  { id: "8", name: "Redux", category: "frontend", icon: "refresh-cw", proficiency: 85 },
+  
+  // Backend
+  { id: "9", name: "Node.js", category: "backend", icon: "server", proficiency: 90 },
+  { id: "10", name: "Express", category: "backend", icon: "zap", proficiency: 88 },
+  { id: "11", name: "PostgreSQL", category: "backend", icon: "database", proficiency: 85 },
+  { id: "12", name: "MongoDB", category: "backend", icon: "leaf", proficiency: 82 },
+  { id: "13", name: "REST APIs", category: "backend", icon: "plug", proficiency: 92 },
+  { id: "14", name: "GraphQL", category: "backend", icon: "hexagon", proficiency: 78 },
+  { id: "15", name: "Python", category: "backend", icon: "snake", proficiency: 80 },
+  
+  // Tools
+  { id: "16", name: "Git", category: "tools", icon: "git-branch", proficiency: 90 },
+  { id: "17", name: "Docker", category: "tools", icon: "container", proficiency: 82 },
+  { id: "18", name: "AWS", category: "tools", icon: "cloud", proficiency: 75 },
+  { id: "19", name: "CI/CD", category: "tools", icon: "workflow", proficiency: 80 },
+  { id: "20", name: "Webpack", category: "tools", icon: "package", proficiency: 78 },
+  { id: "21", name: "Jest", category: "tools", icon: "test-tube", proficiency: 85 },
+  { id: "22", name: "Figma", category: "tools", icon: "figma", proficiency: 88 },
+];
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "E-Commerce Platform",
+    description: "Full-stack online shopping platform with real-time inventory",
+    longDescription: "A comprehensive e-commerce solution built with React and Node.js, featuring real-time inventory management, secure payment processing, and an intuitive admin dashboard. Implemented with microservices architecture for scalability.",
+    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+    techStack: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
+    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/example",
+    category: "Web Application",
+  },
+  {
+    id: "2",
+    title: "Task Management App",
+    description: "Collaborative project management tool with real-time updates",
+    longDescription: "A modern task management application inspired by Trello and Asana. Features include drag-and-drop kanban boards, real-time collaboration using WebSockets, team analytics, and comprehensive project tracking capabilities.",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+    techStack: ["Next.js", "TypeScript", "MongoDB", "Socket.io"],
+    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/example",
+    category: "Productivity",
+  },
+  {
+    id: "3",
+    title: "Social Media Dashboard",
+    description: "Analytics dashboard for managing multiple social platforms",
+    longDescription: "A comprehensive social media management tool that aggregates data from multiple platforms. Features automated reporting, sentiment analysis, and AI-powered content suggestions to optimize social media strategy.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    techStack: ["React", "Express", "GraphQL", "D3.js", "Python"],
+    githubUrl: "https://github.com/example",
+    category: "Analytics",
+  },
+  {
+    id: "4",
+    title: "Weather Forecast App",
+    description: "Beautiful weather app with location-based forecasts",
+    longDescription: "An elegant weather application providing accurate forecasts using multiple weather APIs. Features include location-based detection, 7-day forecasts, weather alerts, and beautiful data visualizations with smooth animations.",
+    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
+    techStack: ["Vue.js", "OpenWeather API", "Chart.js"],
+    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/example",
+    category: "Mobile App",
+  },
+  {
+    id: "5",
+    title: "Portfolio CMS",
+    description: "Headless CMS for developers to manage their portfolios",
+    longDescription: "A specialized content management system designed for developers to easily manage their portfolio content. Features include markdown support, media management, API-first architecture, and seamless integration with any frontend framework.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+    techStack: ["React", "Node.js", "PostgreSQL", "S3"],
+    liveUrl: "https://example.com",
+    category: "CMS",
+  },
+  {
+    id: "6",
+    title: "AI Chatbot Platform",
+    description: "Intelligent chatbot with natural language processing",
+    longDescription: "An advanced chatbot platform powered by modern NLP models. Includes conversation flow builder, sentiment analysis, multi-language support, and seamless integration with popular messaging platforms and CRM systems.",
+    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&q=80",
+    techStack: ["React", "Python", "TensorFlow", "FastAPI"],
+    githubUrl: "https://github.com/example",
+    category: "AI/ML",
+  },
+];
+
+export const experiences: Experience[] = [
+  {
+    id: "1",
+    company: "Tech Innovations Inc.",
+    role: "Senior Full Stack Developer",
+    period: "2022 - Present",
+    description: "Leading development of cloud-native applications using modern tech stack. Architected microservices infrastructure serving 1M+ users. Mentored junior developers and established best practices for code quality and testing.",
+    logo: "rocket",
+  },
+  {
+    id: "2",
+    company: "Digital Solutions Co.",
+    role: "Full Stack Developer",
+    period: "2020 - 2022",
+    description: "Developed and maintained multiple client-facing web applications. Implemented CI/CD pipelines reducing deployment time by 60%. Collaborated with cross-functional teams to deliver high-quality products on schedule.",
+    logo: "briefcase",
+  },
+  {
+    id: "3",
+    company: "StartupHub",
+    role: "Frontend Developer",
+    period: "2019 - 2020",
+    description: "Built responsive user interfaces using React and modern CSS frameworks. Improved application performance by 40% through code optimization. Worked closely with designers to create pixel-perfect implementations.",
+    logo: "sparkles",
+  },
+  {
+    id: "4",
+    company: "CodeCraft Academy",
+    role: "Junior Developer",
+    period: "2018 - 2019",
+    description: "Contributed to open-source projects and internal tools. Learned best practices in software development and agile methodologies. Participated in code reviews and gained experience with various technologies.",
+    logo: "book",
+  },
+];
