@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import myPhoto from "@/assets/myphoto.png";
+
 
 interface HeroProps {
   scrollToSection: (id: string) => void;
@@ -8,7 +10,7 @@ interface HeroProps {
 
 export function Hero({ scrollToSection }: HeroProps) {
   const [typedText, setTypedText] = useState("");
-  const roles = ["Full Stack Developer", "React Specialist", "UI/UX Enthusiast"];
+  const roles = ["Full Stack Developer", "Machine Learning Specialist", "Student at Jain University", "Based in Bangalore"];
   const [roleIndex, setRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
@@ -55,7 +57,7 @@ export function Hero({ scrollToSection }: HeroProps) {
                 Hi, I'm
               </p>
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-display font-bold text-foreground leading-none">
-                John Doe
+                Mahendra Rasay
               </h1>
               <div className="h-12 md:h-16 flex items-center">
                 <p className="text-2xl md:text-3xl lg:text-4xl font-display font-semibold text-primary">
@@ -134,7 +136,7 @@ export function Hero({ scrollToSection }: HeroProps) {
               {/* Image container */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+                  src={myPhoto}
                   alt="Professional headshot"
                   className="w-full h-full object-cover"
                 />
