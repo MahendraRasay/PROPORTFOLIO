@@ -42,7 +42,7 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            A selection of projects showcasing my expertise in full-stack development
+            A selection of projects showcasing my expertise in Application development
           </p>
         </div>
 
