@@ -124,9 +124,9 @@ export const experiences: Experience[] = [
   {
     id: "4",
     company: "CodeCraft Academy",
-    role: "Junior Developer",
-    period: "2018 - 2019",
-    description: "Contributed to open-source projects and internal tools. Learned best practices in software development and agile methodologies. Participated in code reviews and gained experience with various technologies.",
+    role: "Digital Media Intern",
+    period: "Aug 2023 - Oct 2023",
+    description: "Contributed to projects by making Social Media Post BluePrint. Learned best practices in Customer Behavior and agile methodologies. Participated in content reviews and gained experience with various technologies.",
     logo: "book",
   },
 ];
