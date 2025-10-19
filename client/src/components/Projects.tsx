@@ -65,7 +65,7 @@ export function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 right-4">
-                    <p className="text-sm text-foreground font-medium">Click to view details</p>
+                    <p className="text-sm text-foreground font-medium">Click to see all the details</p>
                   </div>
                 </div>
               </div>
