@@ -123,7 +123,7 @@ export const experiences: Experience[] = [
   },
   {
     id: "4",
-    company: "CodeCraft Academy",
+    company: "Ipsr Solutions Ltd.",
     role: "Digital Media Intern",
     period: "Aug 2023 - Oct 2023",
     description: "Contributed to projects by making Social Media Post BluePrint. Learned best practices in Customer Behavior and agile methodologies. Participated in content reviews and gained experience with various technologies.",
