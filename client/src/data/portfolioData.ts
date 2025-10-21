@@ -117,7 +117,7 @@ export const experiences: Experience[] = [
     id: "3",
     company: "StartupHub",
     role: "Frontend Developer",
-    period: "2019 - 2020",
+    period: "2023 - 2024",
     description: "Built responsive user interfaces using React and modern CSS frameworks. Improved application performance by 40% through code optimization. Worked closely with designers to create pixel-perfect implementations.",
     logo: "sparkles",
   },
