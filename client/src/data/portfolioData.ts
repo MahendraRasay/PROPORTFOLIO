@@ -107,7 +107,7 @@ export const experiences: Experience[] = [
   },
   {
     id: "2",
-    company: "Digital Solutions Co.",
+    company: "Digital Solutions Ltd.",
     role: "Full Stack Developer",
     period: "2020 - 2022",
     description: "Developed and maintained multiple client-facing web applications. Implemented CI/CD pipelines reducing deployment time by 60%. Collaborated with cross-functional teams to deliver high-quality products on schedule.",
