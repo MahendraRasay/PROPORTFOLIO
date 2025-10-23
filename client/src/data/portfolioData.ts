@@ -100,9 +100,9 @@ export const experiences: Experience[] = [
   {
     id: "1",
     company: "Tech Innovations Inc.",
-    role: "Senior Full Stack Developer",
+    role: "Data Analyst & consultant",
     period: "2022 - Present",
-    description: "Leading development of cloud-native applications using modern tech stack. Architected microservices infrastructure serving 1M+ users. Mentored junior developers and established best practices for code quality and testing.",
+    description: "Comprehensive data analysis to support business decision-making and strategy. Provided expert consulting to optimize data processes and enhance client outcomes. Collaborated with stakeholders to translate complex data insights into actionable recommendations.",
     logo: "rocket",
   },
   {
