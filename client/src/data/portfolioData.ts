@@ -101,7 +101,7 @@ export const experiences: Experience[] = [
     id: "1",
     company: "Tech Innovations Inc.",
     role: "Data Analyst & consultant",
-    period: "2022 - Present",
+    period: "Feb 2025 - Aug 2025",
     description: "Comprehensive data analysis to support business decision-making and strategy. Provided expert consulting to optimize data processes and enhance client outcomes. Collaborated with stakeholders to translate complex data insights into actionable recommendations.",
     logo: "rocket",
   },
