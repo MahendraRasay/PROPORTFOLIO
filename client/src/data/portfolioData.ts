@@ -3,20 +3,18 @@ import { Skill, Project, Experience } from "@shared/schema";
 export const skills: Skill[] = [
   // Frontend
   { id: "1", name: "React", category: "frontend", icon: "react", proficiency: 95 },
-  { id: "2", name: "TypeScript", category: "frontend", icon: "code", proficiency: 90 },
-  { id: "3", name: "JavaScript", category: "frontend", icon: "braces", proficiency: 95 },
+  { id: "2", name: "TypeScript", category: "frontend", icon: "code", proficiency: 60 },
+  { id: "3", name: "JavaScript", category: "frontend", icon: "braces", proficiency: 85 },
   { id: "4", name: "HTML/CSS", category: "frontend", icon: "palette", proficiency: 90 },
   { id: "5", name: "Next.js", category: "frontend", icon: "triangle", proficiency: 88 },
-  { id: "6", name: "Redux", category: "frontend", icon: "refresh-cw", proficiency: 85 },
+  { id: "6", name: "Redux", category: "frontend", icon: "refresh-cw", proficiency: 65 },
   
   // Backend
-  { id: "9", name: "Node.js", category: "backend", icon: "server", proficiency: 90 },
-  { id: "10", name: "Express", category: "backend", icon: "zap", proficiency: 88 },
-  { id: "11", name: "PostgreSQL", category: "backend", icon: "database", proficiency: 85 },
-  { id: "12", name: "MongoDB", category: "backend", icon: "leaf", proficiency: 82 },
-  { id: "13", name: "REST APIs", category: "backend", icon: "plug", proficiency: 92 },
-  { id: "14", name: "GraphQL", category: "backend", icon: "hexagon", proficiency: 78 },
-  { id: "15", name: "Python", category: "backend", icon: "snake", proficiency: 80 },
+  { id: "7", name: "Node.js", category: "backend", icon: "server", proficiency: 90 },
+  { id: "8", name: "Express", category: "backend", icon: "zap", proficiency: 88 },
+  { id: "9", name: "MongoDB", category: "backend", icon: "leaf", proficiency: 82 },
+  { id: "10", name: "REST APIs", category: "backend", icon: "plug", proficiency: 72 },
+  { id: "11", name: "Python", category: "backend", icon: "snake", proficiency: 80 },
   
   // Tools
   { id: "16", name: "Git", category: "tools", icon: "git-branch", proficiency: 90 },
