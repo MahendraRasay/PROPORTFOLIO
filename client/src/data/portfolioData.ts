@@ -17,13 +17,13 @@ export const skills: Skill[] = [
   { id: "11", name: "Python", category: "backend", icon: "snake", proficiency: 80 },
   
   // Tools
-  { id: "16", name: "Git", category: "tools", icon: "git-branch", proficiency: 90 },
-  { id: "17", name: "Docker", category: "tools", icon: "container", proficiency: 82 },
-  { id: "18", name: "AWS", category: "tools", icon: "cloud", proficiency: 75 },
-  { id: "19", name: "CI/CD", category: "tools", icon: "workflow", proficiency: 80 },
-  { id: "20", name: "Webpack", category: "tools", icon: "package", proficiency: 78 },
-  { id: "21", name: "Jest", category: "tools", icon: "test-tube", proficiency: 85 },
-  { id: "22", name: "Figma", category: "tools", icon: "figma", proficiency: 88 },
+  { id: "12", name: "Git", category: "tools", icon: "git-branch", proficiency: 90 },
+  { id: "13", name: "Google Colab", category: "tools", icon: "container", proficiency: 82 },
+  { id: "14", name: "TensorFlow", category: "tools", icon: "cloud", proficiency: 75 },
+  { id: "15", name: "Scikit-Learn", category: "tools", icon: "workflow", proficiency: 80 },
+  { id: "16", name: "PyTorch", category: "tools", icon: "package", proficiency: 78 },
+  { id: "17", name: "Numpy", category: "tools", icon: "test-tube", proficiency: 85 },
+  { id: "18", name: "Matplotlib", category: "tools", icon: "figma", proficiency: 88 },
 ];
 
 export const projects: Project[] = [
