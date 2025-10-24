@@ -6,10 +6,8 @@ export const skills: Skill[] = [
   { id: "2", name: "TypeScript", category: "frontend", icon: "code", proficiency: 90 },
   { id: "3", name: "JavaScript", category: "frontend", icon: "braces", proficiency: 95 },
   { id: "4", name: "HTML/CSS", category: "frontend", icon: "palette", proficiency: 90 },
-  { id: "5", name: "Tailwind CSS", category: "frontend", icon: "wind", proficiency: 92 },
-  { id: "6", name: "Next.js", category: "frontend", icon: "triangle", proficiency: 88 },
-  { id: "7", name: "Vue.js", category: "frontend", icon: "component", proficiency: 80 },
-  { id: "8", name: "Redux", category: "frontend", icon: "refresh-cw", proficiency: 85 },
+  { id: "5", name: "Next.js", category: "frontend", icon: "triangle", proficiency: 88 },
+  { id: "6", name: "Redux", category: "frontend", icon: "refresh-cw", proficiency: 85 },
   
   // Backend
   { id: "9", name: "Node.js", category: "backend", icon: "server", proficiency: 90 },
