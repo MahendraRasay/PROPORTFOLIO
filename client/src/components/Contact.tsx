@@ -59,25 +59,25 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@johndoe.dev",
-      href: "mailto:hello@johndoe.dev",
+      value: "mahendra.qrs@gmail.com",
+      href: "mailto:mahendra.qrs@gmail.com",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "/in/johndoe",
-      href: "https://linkedin.com/in/johndoe",
+      value: "/in/Mahendra Rasay",
+      href: "https://www.linkedin.com/in/mahendra-rasay-9420b3308",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "@johndoe",
-      href: "https://github.com/johndoe",
+      href: "https://github.com/MahendraRasay",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Bengaluru, India",
       href: null,
     },
   ];
