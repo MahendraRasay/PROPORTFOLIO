@@ -71,7 +71,7 @@ export function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      value: "@johndoe",
+      value: "@MahendraRasay",
       href: "https://github.com/MahendraRasay",
     },
     {
