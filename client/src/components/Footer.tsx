@@ -16,9 +16,9 @@ export function Footer({ scrollToSection }: FooterProps) {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:hello@johndoe.dev", label: "Email" },
+    { icon: Github, href: "https://github.com/MahendraRasay", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.cwww.linkedin.com/in/mahendra-rasay-9420b3308om", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:mahendra.qrs@gmail.com", label: "Email" },
   ];
 
   return (
@@ -82,7 +82,7 @@ export function Footer({ scrollToSection }: FooterProps) {
               © {currentYear} Portfolio. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground flex items-center gap-1">
-              Built with <Heart className="h-4 w-4 text-primary fill-current" /> using React &
+              Built By Mahendra <Heart className="h-4 w-4 text-primary fill-current" /> using React &
               TypeScript
             </p>
           </div>
