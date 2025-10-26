@@ -5,6 +5,9 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   root: "client",
+  build: {
+    outDir: "../dist"  // <-- output in project root
+  },
   server: {
     port: 8080
   },
