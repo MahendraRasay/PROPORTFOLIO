@@ -82,8 +82,7 @@ export function Footer({ scrollToSection }: FooterProps) {
               © {currentYear} Portfolio. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground flex items-center gap-1">
-              Built By Mahendra <Heart className="h-4 w-4 text-primary fill-current" /> using React &
-              TypeScript
+              Built By Mahendra <Heart className="h-4 w-4 text-primary fill-current" /> using React
             </p>
           </div>
         </div>
