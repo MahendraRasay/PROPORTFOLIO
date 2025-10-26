@@ -97,7 +97,7 @@ export function Hero({ scrollToSection }: HeroProps) {
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
               <a
-                href="https://github.com"
+                href="https://github.com/MahendraRasay"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -107,7 +107,7 @@ export function Hero({ scrollToSection }: HeroProps) {
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/mahendra-rasay-9420b3308"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -117,7 +117,7 @@ export function Hero({ scrollToSection }: HeroProps) {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="mailto:hello@example.com"
+                href="mailto:mahendra.qrs@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
                 data-testid="link-email"
